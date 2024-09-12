@@ -1,0 +1,42 @@
+/***************** Hero */
+.hero {
+    background-image: url("hero_1.jpg.webp");
+}
+
+.hero-text {
+    max-width: 750px;
+}
+
+.hero-text h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 85px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 42px;
+}
+
+/***************** Destinations */
+.destinations h1,
+.tours h1,
+.contact h1 {
+    color: #1D2A3B;
+    position: relative;
+}
+
+.destinations h1:after,
+.tours h1:after,
+.contact h1:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 6px;
+    background: #0d6efd;
+    content: "";
+}
+
+/***************** Tours */
